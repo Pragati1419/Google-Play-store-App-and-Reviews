@@ -1,4 +1,4 @@
-Excited to share that I've just completed an EDA (Exploratory Data Analysis) project on Google Play Store analysis using Jupyter! 🚀📊
+ Google Play Store analysis using Jupyter! 🚀📊
 
 As part of this project, I analyzed a large dataset of apps from the Google Play Store and used Python libraries like Pandas, Matplotlib, and Seaborn to perform various data cleaning, transformation, and visualization tasks. I explored different aspects of the app market, such as categories, ratings, reviews, and installs, and gained valuable insights into what makes a successful app.
 
@@ -16,14 +16,14 @@ Overall, this project was a great opportunity for me to practice my data analysi
 ## Tasks
 
 ### 1. Data clean up – Missing value treatment
-###   a. Drop records where rating is missing since rating is our target/study variable
+###   a. Drop records where the rating is missing since the rating is our target/study variable
 ###   b. Check the null values for the Android Ver column.
 ### 2. Data clean up – correcting the data types
 ###   a. Which all variables need to be brought to numeric types?
 ###   b. Price variable – remove $ sign and convert to float
 ###   c. Installs – remove ‘,’ and ‘+’ sign, convert to integer
 ###   d. Convert all other identified columns to numeric
-### 3. Sanity checks – check for the following and handle accordingly
+### 3. Sanity checks – check for the following and handle them accordingly
 ###   a. Avg. rating should be between 1 and 5, as only these values are allowed on the play
 ###   store.
 ###   b. Reviews should not be more than installs as only those who installed can review the
@@ -53,7 +53,7 @@ Overall, this project was a great opportunity for me to practice my data analysi
 ###   e. Does the pattern change?
 ###   f. What is your overall inference on the effect of price on the rating
 ### 9. Look at all the numeric interactions together –
-###   a. Make a pairplort with the colulmns - 'Reviews', 'Size', 'Rating', 'Price'
+###   a. Make a pairplort with the columns - 'Reviews', 'Size', 'Rating', 'Price'
 ### 10. Rating vs. content rating
 ###   a. Make a bar plot displaying the rating for each content rating
 ###   b. Which metric would you use? Mean? Median? Some other quantile?
